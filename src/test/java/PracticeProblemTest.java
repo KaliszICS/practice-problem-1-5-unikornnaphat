@@ -32,7 +32,7 @@ public class PracticeProblemTest {
       System.setOut(new PrintStream(bos));
 
       // action
-      PracticeProblem.q1();
+      PracticeProblem.q2();
 
       // assertion
       assertEquals("Input a word: l\n", bos.toString());
@@ -52,7 +52,7 @@ public class PracticeProblemTest {
       System.setOut(new PrintStream(bos));
 
       // action
-      PracticeProblem.q1();
+      PracticeProblem.q2();
 
       // assertion
       assertEquals("Input a word: e\n", bos.toString());
@@ -72,7 +72,7 @@ public class PracticeProblemTest {
       System.setOut(new PrintStream(bos));
 
       // action
-      PracticeProblem.q1();
+      PracticeProblem.q3();
 
       // assertion
       assertEquals("Input a word: The second character user entered was: o\n", bos.toString());
@@ -92,7 +92,7 @@ public class PracticeProblemTest {
       System.setOut(new PrintStream(bos));
 
       // action
-      PracticeProblem.q1();
+      PracticeProblem.q3();
 
       // assertion
       assertEquals("Input a word: The second character user entered was: n\n", bos.toString());
@@ -112,7 +112,7 @@ public class PracticeProblemTest {
       System.setOut(new PrintStream(bos));
 
       // action
-      PracticeProblem.q1();
+      PracticeProblem.q4();
 
       // assertion
       assertEquals("Input a number: Your number plus 1 is: 9\n", bos.toString());
@@ -132,7 +132,7 @@ public class PracticeProblemTest {
       System.setOut(new PrintStream(bos));
 
       // action
-      PracticeProblem.q1();
+      PracticeProblem.q4();
 
       // assertion
       assertEquals("Input a number: Your number plus 1 is: 1\n", bos.toString());
@@ -152,7 +152,7 @@ public class PracticeProblemTest {
       System.setOut(new PrintStream(bos));
 
       // action
-      PracticeProblem.q1();
+      PracticeProblem.q5();
 
       // assertion
       assertEquals("Input a letter: Input another letter: 131\n", bos.toString());
@@ -172,7 +172,7 @@ public class PracticeProblemTest {
       System.setOut(new PrintStream(bos));
 
       // action
-      PracticeProblem.q1();
+      PracticeProblem.q5();
 
       // assertion
       assertEquals("Input a letter: Input another letter: 202\n", bos.toString());
