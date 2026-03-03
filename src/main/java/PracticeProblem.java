@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class PracticeProblem {
 
 	public static void main(String args[]) {
@@ -9,23 +11,56 @@ public class PracticeProblem {
 	}
 
 	public static void q1() {
-		//Write question 1 code here
+		char c = 'a';
+        System.out.println(c);
 	}
 
 	public static void q2() {
-		//Write question 2 code here
+		Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a word: ");
+        String word = scanner.nextLine();
+        if (word.length() >= 3) {
+            char thirdLetter = word.charAt(2);
+            System.out.println(thirdLetter);
+        } else {
+            System.out.println("Word is too short.");
+        }
 	}
 
 	public static void q3() {
-		//Write question 3 code here
+		Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a word: ");
+        String word = scanner.nextLine();
+        if (word.length() >= 2) {
+            char secondChar = word.charAt(1);
+            System.out.println("The second character user entered was: " + secondChar);
+        } else {
+            System.out.println("Word is too short.");
+        }
 	}
 
 	public static void q4() {
-		//Write question 4 code here
+		Scanner scanner = new Scanner(System.in);
+        System.out.print("Input a number: ");
+        int num = scanner.nextInt();
+        System.out.println("Your number plus 1 is: " + (num + 1));
 	}
 
 	public static void q5() {
-		//Write question 5 code here
-	}
+		Scanner scanner = new Scanner(System.in);
 
+    System.out.print("Input a letter: ");
+    String s1 = scanner.nextLine();
+    char c1 = s1.charAt(0);
+
+    System.out.print("Input another letter: ");
+    String s2 = scanner.nextLine();
+    char c2 = s2.charAt(0);
+
+    int sum = c1 + c2;
+    System.out.println(sum);
+	}
 }
+
+
+
