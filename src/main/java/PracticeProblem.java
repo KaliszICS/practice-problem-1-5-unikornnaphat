@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class PracticeProblem {
-
     private static final Scanner scanner = new Scanner(System.in);
 
 	public static void main(String args[]) {
@@ -46,9 +45,11 @@ public class PracticeProblem {
 	}
 
 	public static void q5() {
+        scanner.nextLine();
 		System.out.print("Input a letter: ");
         String s1 = scanner.nextLine();
         char c1 = s1.charAt(0);
+
         System.out.print("Input another letter: ");
         String s2 = scanner.nextLine();
         char c2 = s2.charAt(0);
