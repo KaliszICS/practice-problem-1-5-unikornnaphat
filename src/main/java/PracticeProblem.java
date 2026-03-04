@@ -24,6 +24,7 @@ public class PracticeProblem {
             System.out.println(thirdLetter);
         } else {
             System.out.println("Word is too short.");
+            scanner.close();
         }
 	}
 
@@ -35,6 +36,7 @@ public class PracticeProblem {
             System.out.println("The second character user entered was: " + secondChar);
         } else {
             System.out.println("Word is too short.");
+            scanner.close();
         }
     }
 
@@ -42,6 +44,7 @@ public class PracticeProblem {
 		System.out.print("Input a number: ");
         int num = scanner.nextInt();
         System.out.println("Your number plus 1 is: " + (num + 1));
+        scanner.close();
 	}
 
 	public static void q5() {
@@ -56,6 +59,7 @@ public class PracticeProblem {
 
         int sum = c1 + c2;
         System.out.println(sum);
+        scanner.close();
     }    
 }
 
